@@ -34,7 +34,7 @@ A scalable and asynchronous RESTful API for accessing Global Terrorism Data, bui
 ### 1. Clone This Repository
 
 ```bash
-git clone https://github.com/yourusername/GTD_Kelompok4.git
+git clone https://github.com/jovi23f/GTD_Kelompok4.git
 cd GTD_Kelompok4
 ```
 
@@ -138,15 +138,25 @@ This API joins data from 7 related tables:
 
 ```json
 [
-  {
-    "id": 54321,
-    "iyear": 2012,
-    "imonth": 5,
-    "iday": 23,
-    "city": "Baghdad",
-    "country_name": "Iraq",
-    "region_name": "Middle East & North Africa"
-  }
+{
+  "status": "success",
+  "message": "Events fetched successfully.",
+  "page": 1,
+  "total_pages": 243,
+  "total_items": 1212,
+  "data": [
+    {
+      "eventid": 79361,
+      "iyear": 2006,
+      "imonth": 1,
+      "iday": 0,
+      "location": "The rockets landed near Sederot in the Western Negev.",
+      "hostkidoutcome_txt": "NaN",
+      "nreleased": null,
+      "regionid": 6,
+      "countryid": 612
+    }]
+}
 ]
 ```
 

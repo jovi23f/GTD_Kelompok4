@@ -91,6 +91,16 @@ GRANT SELECT ON ALL TABLES IN SCHEMA public TO ro_user;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO ro_user;
 ```
 
+### 5. Run the API
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Visit [http://localhost:8000/docs](http://localhost:8000/docs) to explore endpoints.
+
+---
+
 
 ## 🔍 API Endpoints
 

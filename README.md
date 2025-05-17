@@ -57,7 +57,7 @@ createdb terrorism_db
 psql -U postgres -d terrorism_db -f terrorism_db.sql
 ```
 
-Ensure `.env` or config matches:
+Ensure `database.py` or config matches:
 
 ```
 DATABASE_URL=postgresql://ro_user:yourpassword@localhost:5432/terrorism_db
@@ -73,7 +73,24 @@ Ensure PostgreSQL is running and contains these tables:
 - `weapon` — weapon types used
 - `attack` — attack types
 
----
+  
+### 4. Setup PostgreSQL Read-Only User (Optional)
+
+```sql
+-- Login ke PostgreSQL
+psql -U postgres
+
+-- Buat user read-only
+CREATE USER ro_user WITH PASSWORD 'yourpassword';
+
+-- Beri hak akses hanya untuk baca
+\c terrorism_db
+GRANT CONNECT ON DATABASE terrorism_db TO ro_user;
+GRANT USAGE ON SCHEMA public TO ro_user;
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO ro_user;
+ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT SELECT ON TABLES TO ro_user;
+```
+
 
 ## 🔍 API Endpoints
 

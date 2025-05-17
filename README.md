@@ -54,7 +54,7 @@ To load the dataset used in this project, restore the PostgreSQL database from t
 
 ```bash
 createdb terrorism_db
-psql -U postgres -d terrorism_db -f terrorism_api.sql
+psql -U postgres -d terrorism_db -f terrorism_db.sql
 ```
 
 Ensure `.env` or config matches:

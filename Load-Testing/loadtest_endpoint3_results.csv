@@ -1,0 +1,5 @@
+endpoint,stage,average_response_time,latency_p95,latency_p99,rps,error_rate,throughput
+/weapons?page=1&limit=5&sortby=type&order=desc,Light,154.05388175675498,338.71369999997114,345.5320999999003,0.6166666666666667,0.0,2125
+/weapons?page=1&limit=5&sortby=type&order=desc,Light,13.871009045141516,19.353599999931248,31.437799999821436,49.65833333333333,0.0,2125
+/weapons?page=1&limit=5&sortby=type&order=desc,Medium,41.81430393685241,102.150900000197,255.51370000016504,147.5375,0.0,2125
+/weapons?page=1&limit=5&sortby=type&order=desc,Heavy,338.66477966292837,924.2291000000478,1321.6035000000375,214.1,0.0,2125

@@ -1,0 +1,4 @@
+endpoint,stage,average_response_time,latency_p95,latency_p99,rps,error_rate,throughput
+/regions?page=1&limit=55&sortby=region&order=asc,Light,8.96898729840511,13.14249999995809,31.22090000033495,49.8625,0.0,1158
+/regions?page=1&limit=55&sortby=region&order=asc,Medium,21.72531531435902,40.25770000043849,73.71469999998226,149.17916666666667,0.0,1158
+/regions?page=1&limit=55&sortby=region&order=asc,Heavy,332.37415661639386,800.8240999997724,1169.9631999999838,214.93333333333334,0.0,1158

@@ -1,0 +1,5 @@
+endpoint,stage,average_response_time,latency_p95,latency_p99,rps,error_rate,throughput
+/countries?page=1&limit=5&sortby=country&order=asc,Light,12.0777248582284,16.657200001645833,22.564900005818345,49.95,0.0,669
+/countries?page=1&limit=15&sortby=country&order=asc,Light,12.53274822451158,16.726700006984174,24.650500010466203,49.87083333333333,0.0,1799
+/countries?page=1&limit=15&sortby=country&order=asc,Medium,32.605846902233644,61.84360000770539,113.76749999180902,148.02083333333334,0.0,1799
+/countries?page=1&limit=15&sortby=country&order=asc,Heavy,607.9726238947159,1321.3420999964,1800.79609999666,191.69166666666666,0.0,1799

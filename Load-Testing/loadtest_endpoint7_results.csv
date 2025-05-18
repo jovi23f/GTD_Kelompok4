@@ -1,0 +1,4 @@
+endpoint,stage,average_response_time,latency_p95,latency_p99,rps,error_rate,throughput
+/attacks?page=1&limit=15&sortby=attacktype&order=asc,Light,9.125518392932035,12.814300003810786,18.69869999063667,49.88333333333333,0.0,557
+/attacks?page=1&limit=15&sortby=attacktype&order=asc,Medium,24.62897339842895,45.94389999692794,91.29769999708515,148.87916666666666,0.0,557
+/attacks?page=1&limit=15&sortby=attacktype&order=asc,Heavy,500.21638030016504,1199.267099989811,1703.0957999959355,200.72083333333333,0.0,557

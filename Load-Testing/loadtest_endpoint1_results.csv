@@ -1,0 +1,4 @@
+endpoint,stage,average_response_time,latency_p95,latency_p99,rps,error_rate,throughput
+/events?page=1&limit=15&iyear=2005&region_name=South%20Asia&sortby=iday&order=asc,Light,39.56825840557867,55.12240000007296,89.73609999975452,49.025,0.0,19287
+/events?page=1&limit=15&iyear=2005&region_name=South%20Asia&sortby=iday&order=asc,Medium,881.4661495080691,1868.830700000217,2544.383299999936,104.60416666666667,0.0,19287
+/events?page=1&limit=15&iyear=2005&region_name=South%20Asia&sortby=iday&order=asc,Heavy,3093.308847391729,6274.023900000429,8235.904500000288,97.84583333333333,0.0,19287

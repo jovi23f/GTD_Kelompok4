@@ -1,0 +1,4 @@
+endpoint,stage,average_response_time,latency_p95,latency_p99,rps,error_rate,throughput
+/groups?page=1&limit=15&sortby=gname&order=asc,Light,17.95940287124828,23.232000006828457,30.901400008588098,49.775,0.0,6522
+/groups?page=1&limit=15&sortby=gname&order=asc,Medium,61.76202360771313,124.12739999126643,218.0460000090534,146.49166666666667,0.0,6522
+/groups?page=1&limit=15&sortby=gname&order=asc,Heavy,1082.7840820444005,2286.6998000099557,3001.0118999925908,162.4375,0.0,6522

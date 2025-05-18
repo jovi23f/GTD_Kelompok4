@@ -1,6 +1,6 @@
 # 🌍 Global Terrorism Async API
 
-A scalable and asynchronous RESTful API for accessing Global Terrorism Data, built using **FastAPI**, **PostgreSQL**, and **asyncpg/databases**. This project is developed as part of a graduate-level assignment focused on building efficient data services using modern backend technologies.
+A scalable and asynchronous RESTful API for accessing Global Terrorism Data, built using **FastAPI**, **PostgreSQL**, and **asyncpg/databases**. This project is developed as part of a graduate-level assignment focused on building efficient data services using modern backend technologies. The modified databases can be downloaded in the database section.
 
 ---
 
@@ -146,6 +146,10 @@ Returns list of all countries (optionally filtered by `region_id`).
 ---
 
 ## 📂 Database Schema & Joins
+
+Because the original database has a lot of data, we decided to modify it's structure a little bit by making several tables and some normalization in it's coloumn. You can access the Postgre backup file in the link below.
+
+LINK: https://drive.google.com/file/d/1LWGHwfiORfwSKBmA6Ls43PxPIr1TzUAY/view?usp=sharing
 
 This API joins data from 7 related tables:
 

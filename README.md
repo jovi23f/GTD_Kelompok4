@@ -194,6 +194,9 @@ This API joins data from 7 related tables:
       "imonth": 1,
       "iday": 0,
       "location": "The rockets landed near Sederot in the Western Negev.",
+      .
+      .
+      .
       "hostkidoutcome_txt": "NaN",
       "nreleased": null,
       "regionid": 6,

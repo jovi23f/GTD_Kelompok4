@@ -180,7 +180,7 @@ This API joins data from 7 related tables:
 ## 📊 Sample Response
 
 ```json
-[
+
 {
   "status": "success",
   "message": "Events fetched successfully.",
@@ -239,7 +239,7 @@ This API joins data from 7 related tables:
       "countryid": 8090
     }]
 }
-]
+
 ```
 
 ---

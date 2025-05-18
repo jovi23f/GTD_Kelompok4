@@ -143,6 +143,18 @@ Returns list of all region IDs and names.
 ### `GET /countries`
 Returns list of all countries (optionally filtered by `region_id`).
 
+### `GET /weapons`
+Returns a list of all weapon records, including weapon types, subtypes, and descriptive information. This endpoint can be used to reference or filter events based on the type of weapons used.
+
+### `GET /attacks`
+Returns a list of all attack types in the dataset. Each entry contains the attackid and the corresponding attacktype name. Useful for filtering events based on the method of attack.
+
+### GET `/targets`
+Returns detailed information on target categories and subcategories, including target names, nationalities, and classification. This helps filter and analyze the types of targets affected in various incidents.
+
+### GET `/groups`
+Returns a list of terrorist groups, including primary and alternate names, uncertainty indicators, and whether the group claimed responsibility. This endpoint is useful for referencing group-specific event data.
+
 ---
 
 ## 📂 Database Schema & Joins
